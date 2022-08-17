@@ -13,20 +13,23 @@ body{
     background-size: auto;
     background-position: -725px -650px, 175px 225px;
 }
+h1 {
+    margin: 0;
+}
 .fw-400{
     font-weight: 400;
 }
 .fs-16{
-    font-size: 16px;
+    font-size: 14px;
 }
 .card{
-    margin: 10vh auto;
-    max-width: 320px;
+    margin: 150px auto;
+    max-width: 326px;
     font-family: 'Kumbh Sans', sans-serif;
     text-align: center;
     color: var(--dark-desatured-blue);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
 }
 .card-top-bg{
     width: 100%;
@@ -51,7 +54,7 @@ body{
     margin-bottom: -40px;
 }
 .card-profile-name{
-    font-size: 20px;
+    font-size: 18px;
 }
 .card-profile-age{
     color: var(--dark-grayish-blue);
@@ -59,26 +62,31 @@ body{
 }
 .card-location{
     color: var(--dark-grayish-blue);
+    margin-top: 12px;
 }
 .card-profile-data hr{
-    opacity: 0.5;
+    background-color: #E8E9EC;
+    opacity: 0.25;
+}
+hr {
+    margin: 0
 }
 .card-stats{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 16px;
 }
 .stat{
     width: 33%;
 }
 .stat h2, h3, h4{
     font-size: 20px;
-    line-height: 10px;
     margin: 0;
 }
 .stat p{
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 1px;
+    color: #6B7082;
 }
 .attribution {
     font-size: 14px; text-align: center;
@@ -86,11 +94,12 @@ body{
 .attribution a{
 color: hsl(228, 45%, 44%);
 }
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 768px){
     body{
         background-position: -75px -450px, 900px 450px;
     }
     .card{
         margin: 25vh auto;
+        max-width: 350px;
     }
 }
